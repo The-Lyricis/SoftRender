@@ -1,0 +1,15 @@
+﻿E:\VS2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(SoftRender.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Main.cpp
+F:\Code\SoftRender\Soft_Render_V1.0\Public\Buffer.h(36,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\SoftRender\Soft_Render_V1.0\Public\Buffer.h(36,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\SoftRender\Soft_Render_V1.0\Public\Buffer.h(37,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\SoftRender\Soft_Render_V1.0\Public\Buffer.h(37,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\SoftRender\Soft_Render_V1.0\Public\Mesh.h(22,29): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\Code\SoftRender\Soft_Render_V1.0\Public\Main.cpp(49,31): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+F:\Code\SoftRender\Soft_Render_V1.0\Public\Main.cpp(313,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\Code\SoftRender\Soft_Render_V1.0\Public\Main.cpp(316,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  Soft_Render_V1.0.vcxproj -> F:\Code\SoftRender\x64\Debug\Soft_Render_V1.0.exe

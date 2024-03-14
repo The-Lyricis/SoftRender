@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\Code\SoftRender\Soft_Render_V1.0\Public\</FILEPATH>
+      <FILENAME>Color.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Color::r。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Color::{ctor}</FUNCTION>
+    <DECORATED>??0Color@@QEAA@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Color::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\Code\SoftRender\Soft_Render_V1.0\Public\</FILEPATH>
+      <FILENAME>Color.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Color::a。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Color::{ctor}</FUNCTION>
+    <DECORATED>??0Color@@QEAA@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Color::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\Code\SoftRender\Soft_Render_V1.0\Public\</FILEPATH>
+      <FILENAME>Color.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Color::b。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Color::{ctor}</FUNCTION>
+    <DECORATED>??0Color@@QEAA@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Color::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\Code\SoftRender\Soft_Render_V1.0\Public\</FILEPATH>
+      <FILENAME>Color.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Color::g。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Color::{ctor}</FUNCTION>
+    <DECORATED>??0Color@@QEAA@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Color::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

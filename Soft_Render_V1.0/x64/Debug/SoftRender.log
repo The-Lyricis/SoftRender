@@ -1,0 +1,162 @@
+﻿E:\VS2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Soft_Render_V1.0.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Camera.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Camera.cpp(40,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  Color.cpp
+  Light.cpp
+  MyMath.cpp
+  Matrix.cpp
+  Mesh.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Mesh.h(32,29): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  ObjFileReader.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Mesh.h(32,29): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\ObjFileReader.cpp(8,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Renderer.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(36,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(36,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(37,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(37,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Mesh.h(32,29): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(109,10): warning C4244: “初始化”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(110,10): warning C4244: “初始化”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(111,10): warning C4244: “初始化”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(149,10): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(150,22): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(153,10): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(154,22): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(192,10): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(193,22): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(197,10): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(198,22): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(235,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(249,8): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(250,8): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(256,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(268,56): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(268,53): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(286,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(300,27): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(300,24): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(310,56): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(310,53): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(373,79): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(374,78): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(550,52): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(550,45): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(550,38): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(550,31): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(550,24): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Renderer.cpp(550,17): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  Shader.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(36,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(36,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(37,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(37,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Shader.cpp(57,22): warning C4305: “初始化”: 从“double”到“float”截断
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Shader.cpp(67,64): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Shader.cpp(150,20): warning C4305: “初始化”: 从“double”到“float”截断
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Shader.cpp(153,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Shader.cpp(181,97): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Shader.cpp(182,96): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Shader.cpp(184,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Shader.cpp(202,24): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  Texture.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Texture.cpp(41,11): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Texture.cpp(42,11): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  Transform.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Transform.cpp(19,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Transform.cpp(35,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Transform.cpp(50,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  Vector3.cpp
+  Vertex.cpp
+  Window.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Window.cpp(16,2): warning C4060: switch 语句没有包含“case”或“default”标签
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Private\Window.cpp(40,124): warning C4838: 从“int”转换到“DWORD”需要收缩转换
+  Main.cpp
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(36,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(36,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(37,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Buffer.h(37,9): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Mesh.h(32,29): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\Code\Soft_Render_V1.0\Soft_Render_V1.0\Public\Main.cpp(58,31): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+  正在生成代码...
+  Soft_Render_V1.0.vcxproj -> F:\Code\Soft_Render_V1.0\x64\Debug\Soft_Render_V1.0.exe

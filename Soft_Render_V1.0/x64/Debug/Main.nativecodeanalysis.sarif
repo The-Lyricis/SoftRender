@@ -1,0 +1,296 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Color::r。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Code/SoftRender/Soft_Render_V1.0/Public/Color.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 2,
+                  "endLine": 16,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Color::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Color::a。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Code/SoftRender/Soft_Render_V1.0/Public/Color.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 2,
+                  "endLine": 16,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Color::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Color::b。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Code/SoftRender/Soft_Render_V1.0/Public/Color.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 2,
+                  "endLine": 16,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Color::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Color::g。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Code/SoftRender/Soft_Render_V1.0/Public/Color.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 2,
+                  "endLine": 16,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Color@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Color::g"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30153.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "E:\\VS2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00B3C1B0 -il C:\\Windows\\Temp\\_CL_8bb5e73aast -typedil -f Public\\Main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930153 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I F:\\Code\\SoftRender\\SoftRender\\Public\\ -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_MBCS -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\Main.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory F:\\Code\\SoftRender\\Soft_Render_V1.0 -analyze:rulesetdirectory ;E:\\VS2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset E:\\VS2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin E:\\VS2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I E:\\VS2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I E:\\VS2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I E:\\VS2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I E:\\VS2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I E:\\VS2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I E:\\VS2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I E:\\VS2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I E:\\VS2019\\Community\\VC\\Auxiliary\\VS\\include -I E:\\VS2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/Code/SoftRender/Soft_Render_V1.0/Public/Color.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a5b2e396f9063b2fd3ca5d0e40d4a08c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e7467bb6b1354ea6f1bdbe1496a20cdc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/renderer.h"
+          },
+          "hashes": {
+            "md5": "a8ca3c2e35519c2b6aa5a87f1fe6f67b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/vertex.h"
+          },
+          "hashes": {
+            "md5": "6adec4f463a04418b6299ee1d86d97cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/matrix.h"
+          },
+          "hashes": {
+            "md5": "f8b441f4cf98d82ccc4800351a9c8661"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/vector3.h"
+          },
+          "hashes": {
+            "md5": "ceea1dea215b4f126ebf7daf8e22bdd3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/light.h"
+          },
+          "hashes": {
+            "md5": "14576cacc5a074ee7f6c5c5f7340a694"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/texture.h"
+          },
+          "hashes": {
+            "md5": "a62c8a159876cc4788f0827a153da0aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/camera.h"
+          },
+          "hashes": {
+            "md5": "f947c2f1bc1d59ac69bfeaa8d502e829"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/transform.h"
+          },
+          "hashes": {
+            "md5": "234fbcf0a42d507bbd5a7524f4dc22d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/mymath.h"
+          },
+          "hashes": {
+            "md5": "62c6a75e4a0d7dbefa2e0845084d60b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/shader.h"
+          },
+          "hashes": {
+            "md5": "7c633759e18cea440a34d49a0f841d15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/uniform.h"
+          },
+          "hashes": {
+            "md5": "3a0badd2a1ad0abdaa2437b812e02220"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/buffer.h"
+          },
+          "hashes": {
+            "md5": "ba61067bd35ee0b115cd022bc3c77607"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/mesh.h"
+          },
+          "hashes": {
+            "md5": "4af21da4e63e28213cf6ce91c8ecfa69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/objfilereader.h"
+          },
+          "hashes": {
+            "md5": "4daa7fa431431cd55d1715c62585c5cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/window.h"
+          },
+          "hashes": {
+            "md5": "11fce3a33d6043e1a1010277a6325724"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/code/softrender/soft_render_v1.0/public/input.h"
+          },
+          "hashes": {
+            "md5": "4fbb022467ee33cf01a0c21a084d010b"
+          }
+        }
+      ]
+    }
+  ]
+}
